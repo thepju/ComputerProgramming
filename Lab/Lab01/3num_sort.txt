@@ -1,0 +1,15 @@
+x = int(input(''))
+y = int(input(''))
+z = int(input(''))
+if z<y<x :
+  print(f'{z} {y} {x}')
+elif y<z<x :
+  print(f'{y} {z} {x}')
+elif z<x<y :
+  print(f'{z} {x} {y}')
+elif x<z<y :
+  print(f'{x} {z} {y}')
+elif x<y<z :
+  print(f'{x} {y} {z}')
+elif y<x<z :
+  print(f'{y} {x} {z}') 

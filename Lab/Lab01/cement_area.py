@@ -1,0 +1,6 @@
+w = int(input('w: '))
+h = int(input('h: '))
+a = int(input('a: '))
+b = int(input('b: '))
+c = int(input('c: '))
+print(f'Area: {(w*h)-(2*a*(b+c)):.2f}')

@@ -1,0 +1,9 @@
+s = int(input('Input starting food (S): '))
+p = int(input("Input Paun's eating rate (P): "))
+n = int(input("Input Gane's eating rate (n): "))
+P_eats = s//p 
+G_eats = ( s - ((s//p)*p) )//n
+D_eats = s - ((s//p)*p) - ((( s - ((s//p)*p) )//n)*n)
+print(f'Paun eats {P_eats} time(s)')
+print(f'Gane eats {G_eats} time(s)') 
+print(f'Remaining {D_eats} for dog')

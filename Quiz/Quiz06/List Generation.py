@@ -1,0 +1,5 @@
+print([i for i in range(20,8,-1)])
+print([i**2 for i in range(1,13)])
+print([((-1)**i) * (2*i-1) for i in range(1,14)  ])
+print([i*(i+1)//2 for i in range(1,10)])
+print([i*'*' for i in range(1,10,2)])
